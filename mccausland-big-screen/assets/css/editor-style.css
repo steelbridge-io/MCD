@@ -1,0 +1,491 @@
+/**
+ * Margin, No Edge
+ * Removes left margin from first item, right margin from last item
+ */
+/**
+ * Icon Position
+ *
+ */
+/**
+ * Block Cover
+ * Creates a block that covers the full width/height of parent div. Typically used on a :before pseudo element
+ */
+/**
+ * Placeholder Color
+ *
+ */
+/**
+ * Clearfix
+ *
+ */
+/**
+ * Font Sizes
+ *
+**/
+/**
+ * Columns
+ *
+ */
+/**
+ * Columns, Mobile
+ *
+ */
+/**
+ * Columns, Tablet
+ *
+ */
+/**
+ * Columns, Tablet Up
+ *
+ */
+/**
+ * Columns, Desktop
+ *
+ */
+/* line 9, ../scss/modules/_base-styles.scss */
+a, a svg {
+  transition: all 0.1s ease-in-out;
+}
+
+/* Blocks
+---------------------------------------------------------------------------------------------------- */
+/* Typographical Elements
+--------------------------------------------- */
+/* line 7, ../scss/partials/_blocks.scss */
+body {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* line 11, ../scss/partials/_blocks.scss */
+a {
+  color: #59BACC;
+  text-decoration: none;
+}
+/* line 16, ../scss/partials/_blocks.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 25, ../scss/partials/_blocks.scss */
+strong {
+  font-weight: 700;
+}
+
+/* line 29, ../scss/partials/_blocks.scss */
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 35, ../scss/partials/_blocks.scss */
+code,
+pre {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+  font-size: 12px;
+}
+
+/* line 41, ../scss/partials/_blocks.scss */
+code {
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+/* line 46, ../scss/partials/_blocks.scss */
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  line-height: 18px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+}
+
+/* line 57, ../scss/partials/_blocks.scss */
+pre code {
+  padding: 0;
+  color: inherit;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border: 0;
+}
+
+/* line 66, ../scss/partials/_blocks.scss */
+cite {
+  font-style: normal;
+}
+
+/* line 81, ../scss/modules/_helpers.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Paragraph
+--------------------------------------------- */
+/* line 77, ../scss/partials/_blocks.scss */
+p {
+  margin: 0 0 16px;
+  padding: 0;
+}
+/* line 81, ../scss/partials/_blocks.scss */
+p.large, p.has-large-font-size, p.wp-block-subhead {
+  font-size: 18px;
+  font-style: normal;
+  opacity: 1;
+}
+@media (min-width: 992px) {
+  /* line 81, ../scss/partials/_blocks.scss */
+  p.large, p.has-large-font-size, p.wp-block-subhead {
+    font-size: 20px;
+  }
+}
+/* line 89, ../scss/partials/_blocks.scss */
+p.small, p.has-small-font-size {
+  font-size: 12px;
+}
+/* line 94, ../scss/partials/_blocks.scss */
+p.extra-margin {
+  margin-bottom: 32px;
+}
+
+/* Headings
+--------------------------------------------- */
+/* line 102, ../scss/partials/_blocks.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+/* line 113, ../scss/partials/_blocks.scss */
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #000;
+}
+/* line 116, ../scss/partials/_blocks.scss */
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover,
+h6 a:hover {
+  color: #59BACC;
+  text-decoration: none;
+}
+/* line 122, ../scss/partials/_blocks.scss */
+h1:focus,
+h2:focus,
+h3:focus,
+h4:focus,
+h5:focus,
+h6:focus {
+  outline: none;
+}
+
+/* line 127, ../scss/partials/_blocks.scss */
+h1 {
+  font-size: 36px;
+}
+
+/* line 131, ../scss/partials/_blocks.scss */
+h2 {
+  font-size: 30px;
+}
+
+/* line 135, ../scss/partials/_blocks.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 139, ../scss/partials/_blocks.scss */
+h4 {
+  font-size: 21px;
+}
+
+/* line 143, ../scss/partials/_blocks.scss */
+h5 {
+  font-size: 18px;
+}
+
+/* line 147, ../scss/partials/_blocks.scss */
+h6 {
+  font-size: 15px;
+}
+
+/* Blockquote
+--------------------------------------------- */
+/* line 154, ../scss/partials/_blocks.scss */
+blockquote,
+blockquote.wp-block-quote {
+  background: transparent;
+  text-align: left;
+}
+/* line 159, ../scss/partials/_blocks.scss */
+blockquote p,
+blockquote.wp-block-quote p {
+  color: #59BACC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+/* line 166, ../scss/partials/_blocks.scss */
+blockquote cite,
+blockquote .wp-block-quote__citation,
+blockquote.wp-block-quote cite,
+blockquote.wp-block-quote .wp-block-quote__citation {
+  color: #59BACC;
+  display: block;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 12px;
+  text-transform: uppercase;
+}
+/* line 176, ../scss/partials/_blocks.scss */
+blockquote p:last-of-type,
+blockquote.wp-block-quote p:last-of-type {
+  margin-bottom: 0;
+}
+/* line 180, ../scss/partials/_blocks.scss */
+blockquote.is-large, blockquote.is-style-large,
+blockquote.wp-block-quote.is-large,
+blockquote.wp-block-quote.is-style-large {
+  margin: calc( 2 * $block-margin ) auto;
+}
+/* line 184, ../scss/partials/_blocks.scss */
+blockquote.is-large p, blockquote.is-style-large p,
+blockquote.wp-block-quote.is-large p,
+blockquote.wp-block-quote.is-style-large p {
+  font-size: 24px;
+}
+@media (min-width: 768px) {
+  /* line 184, ../scss/partials/_blocks.scss */
+  blockquote.is-large p, blockquote.is-style-large p,
+  blockquote.wp-block-quote.is-large p,
+  blockquote.wp-block-quote.is-style-large p {
+    font-size: 36px;
+  }
+}
+/* line 188, ../scss/partials/_blocks.scss */
+blockquote.is-large cite, blockquote.is-style-large cite,
+blockquote.wp-block-quote.is-large cite,
+blockquote.wp-block-quote.is-style-large cite {
+  text-align: left;
+}
+
+/* Pull Quote
+--------------------------------------------- */
+/* line 199, ../scss/partials/_blocks.scss */
+.wp-block-pullquote {
+  border: none;
+  padding: 0;
+}
+/* line 203, ../scss/partials/_blocks.scss */
+.wp-block-pullquote blockquote {
+  border-left: 0;
+  border-top: 8px solid #59BACC;
+  border-bottom: 8px solid #59BACC;
+  padding: 16px 0;
+  text-align: center;
+  max-width: 50%;
+  margin: 0 auto;
+}
+/* line 216, ../scss/partials/_blocks.scss */
+.wp-block-pullquote.alignleft blockquote, .wp-block-pullquote.alignright blockquote {
+  max-width: 100%;
+}
+
+/* Separator
+--------------------------------------------- */
+/* line 228, ../scss/partials/_blocks.scss */
+.wp-block-separator:not(.is-style-dots),
+hr:not(.is-style-dots) {
+  background-color: #E0E0E0;
+  border: 0;
+  height: 1px;
+}
+/* line 234, ../scss/partials/_blocks.scss */
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots),
+hr:not(.is-style-wide):not(.is-style-dots) {
+  width: 100%;
+  height: 4px;
+  background: transparent;
+}
+/* line 239, ../scss/partials/_blocks.scss */
+.wp-block-separator:not(.is-style-wide):not(.is-style-dots)::before,
+hr:not(.is-style-wide):not(.is-style-dots)::before {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 40px;
+  background: #59BACC;
+}
+/* line 248, ../scss/partials/_blocks.scss */
+.wp-block-separator.is-style-dots:before,
+hr.is-style-dots:before {
+  color: #424242;
+  font-size: 18px;
+  letter-spacing: 12px;
+  padding-left: 12px;
+}
+
+/* Image
+--------------------------------------------- */
+/* line 259, ../scss/partials/_blocks.scss */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 265, ../scss/partials/_blocks.scss */
+figcaption {
+  color: #757575;
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Tables
+--------------------------------------------- */
+/* line 275, ../scss/partials/_blocks.scss */
+.table,
+.wp-block-table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 20px;
+}
+/* line 283, ../scss/partials/_blocks.scss */
+.table th,
+.table td,
+.wp-block-table th,
+.wp-block-table td {
+  padding: 16px;
+  vertical-align: center;
+  border-top: 1px solid #E0E0E0;
+}
+/* line 290, ../scss/partials/_blocks.scss */
+.table thead th,
+.wp-block-table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #E0E0E0;
+}
+/* line 295, ../scss/partials/_blocks.scss */
+.table tbody + tbody,
+.wp-block-table tbody + tbody {
+  border-top: 2px solid #E0E0E0;
+}
+
+/* Color Options
+--------------------------------------------- */
+/* line 306, ../scss/partials/_blocks.scss */
+.has-blue-color {
+  color: #59BACC;
+}
+
+/* line 310, ../scss/partials/_blocks.scss */
+.has-blue-background-color {
+  background-color: #59BACC;
+}
+
+/* line 306, ../scss/partials/_blocks.scss */
+.has-green-color {
+  color: #58AD69;
+}
+
+/* line 310, ../scss/partials/_blocks.scss */
+.has-green-background-color {
+  background-color: #58AD69;
+}
+
+/* line 306, ../scss/partials/_blocks.scss */
+.has-orange-color {
+  color: #FFBC49;
+}
+
+/* line 310, ../scss/partials/_blocks.scss */
+.has-orange-background-color {
+  background-color: #FFBC49;
+}
+
+/* line 306, ../scss/partials/_blocks.scss */
+.has-red-color {
+  color: #E2574C;
+}
+
+/* line 310, ../scss/partials/_blocks.scss */
+.has-red-background-color {
+  background-color: #E2574C;
+}
+
+/* line 1, ../scss/partials/_gutenberg.scss */
+body, p {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Post title width */
+/* line 6, ../scss/partials/_gutenberg.scss */
+.editor-post-title__block.wp-block {
+  max-width: 920px;
+  /* Post title styling */
+}
+
+/* Main column width */
+/* line 15, ../scss/partials/_gutenberg.scss */
+.wp-block {
+  max-width: 920px;
+  /* Wide column width */
+  /* Full column width */
+}
+/* line 19, ../scss/partials/_gutenberg.scss */
+.wp-block[data-align="wide"] {
+  max-width: none;
+}
+@media (min-width: 992px) {
+  /* line 19, ../scss/partials/_gutenberg.scss */
+  .wp-block[data-align="wide"] {
+    max-width: none;
+    margin-left: calc(25vw - 25%);
+    margin-right: calc(25vw - 25%);
+  }
+}
+/* line 30, ../scss/partials/_gutenberg.scss */
+.wp-block[data-align="full"] {
+  max-width: none;
+}
+
+/* line 36, ../scss/partials/_gutenberg.scss */
+.wp-block-quote:not(.is-large):not(.is-style-large) {
+  border-left: 0;
+  padding-left: 0;
+}
+
+/* line 42, ../scss/partials/_gutenberg.scss */
+.wp-block-image {
+  line-height: 0;
+}
+
+/*# sourceMappingURL=editor-style.css.map */

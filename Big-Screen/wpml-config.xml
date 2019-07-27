@@ -1,0 +1,56 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="translate">supersized_title1</custom-field>
+        <custom-field action="translate">supersized_subtitle1</custom-field>
+        <custom-field action="translate">supersized_title2</custom-field>
+        <custom-field action="translate">supersized_subtitle2</custom-field>
+        <custom-field action="translate">supersized_title3</custom-field>
+        <custom-field action="translate">supersized_subtitle3</custom-field>
+        <custom-field action="translate">supersized_title4</custom-field>
+        <custom-field action="translate">supersized_subtitle4</custom-field>
+        <custom-field action="translate">supersized_title5</custom-field>
+        <custom-field action="translate">supersized_subtitle5</custom-field>
+        <custom-field action="translate">_sequence_title1</custom-field>
+        <custom-field action="translate">_sequence_subtitle1</custom-field>
+        <custom-field action="translate">_sequence_title2</custom-field>
+        <custom-field action="translate">_sequence_subtitle2</custom-field>
+        <custom-field action="translate">_sequence_title3</custom-field>
+        <custom-field action="translate">_sequence_subtitle3</custom-field>
+        <custom-field action="translate">_sequence_title4</custom-field>
+        <custom-field action="translate">_sequence_subtitle4</custom-field>
+        <custom-field action="translate">_sequence_title5</custom-field>
+        <custom-field action="translate">_sequence_subtitle5</custom-field>
+        <custom-field action="translate">_sequence_title6</custom-field>
+        <custom-field action="translate">_sequence_subtitle6</custom-field>
+        <custom-field action="translate">_sequence_title7</custom-field>
+        <custom-field action="translate">_sequence_subtitle7</custom-field>
+        <custom-field action="translate">_sequence_title8</custom-field>
+        <custom-field action="translate">_sequence_subtitle8</custom-field>
+        <custom-field action="translate">_sequence_title9</custom-field>
+        <custom-field action="translate">_sequence_subtitle9</custom-field>
+        <custom-field action="translate">_sequence_title10</custom-field>
+        <custom-field action="translate">_sequence_subtitle10</custom-field>
+        <custom-field action="translate">_offline_text</custom-field>
+        <custom-field action="translate">_offline_smalltext</custom-field>
+        <custom-field action="translate">_offline_footertext</custom-field>
+        <custom-field action="translate">_contact_address</custom-field>
+        <custom-field action="translate">_contact_phone</custom-field>
+        <custom-field action="translate">_contact_description</custom-field>
+        <custom-field action="translate">homepage_title</custom-field>
+        <custom-field action="translate">homepage_content</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+    </custom-types>    
+    <admin-texts>
+        <key name="ekho">
+            <key name="address" />
+            <key name="slogan_text" />
+            <key name="topheader_smallertext" />
+            <key name="location" />
+            <key name="contact_description" />
+        </key>
+    </admin-texts>    
+</wpml-config>
+
+

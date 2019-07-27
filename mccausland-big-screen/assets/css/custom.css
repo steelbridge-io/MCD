@@ -1,0 +1,737 @@
+/* Basic Template SCSS -> CSS for McCausland Construction /templates/_mcd.scss	
+==============================================================================*/
+/**
+Custom CSS 
+**/
+@import "http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300,400|Source+Sans+Pro:300,400";
+/*
+Edit this page and suffer at the hands of your own peril.
+	-  INTRO
+	-  OUR WORK
+	-  FLEX SLIDER
+	-  ABOUT
+	-  OUR TEAM
+	-  SEPARATOR
+	-  QUOTE SLIDER
+	-  HR
+	-  PRO IMAGE OPACITY
+	-  CONTACT
+	-  QUOTE
+	-  OUR WORK
+	-  CONSTRUCTION & DESIGN
+	-  SPRITE
+	-  MEDIA QUERIES
+*/
+/* line 30, ../scss/template/_mcd.scss */
+.copyright a {
+  font-family: Source Sans Pro;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  color: #858585 !important;
+}
+
+/* line 38, ../scss/template/_mcd.scss */
+.clear {
+  clear: both;
+}
+
+/* line 42, ../scss/template/_mcd.scss */
+span.lines {
+  border-top: none;
+  border-bottom: none;
+}
+
+/* line 47, ../scss/template/_mcd.scss */
+.button1 {
+  background: #A51E2D;
+}
+
+/* line 51, ../scss/template/_mcd.scss */
+#contact {
+  background: none;
+  background-color: #f9f9f9;
+}
+
+/** #1 INTRO 
+**********************************************************************/
+/* line 58, ../scss/template/_mcd.scss */
+.tel-number {
+  font-size: 1.8rem;
+}
+
+/* line 61, ../scss/template/_mcd.scss */
+.title img {
+  margin-top: 13.5em;
+  max-width: 85.5%;
+}
+
+/* line 66, ../scss/template/_mcd.scss */
+.hd-container {
+  width: 98%;
+  height: 584px;
+  margin: 150px auto 0;
+  position: relative;
+}
+
+/* line 73, ../scss/template/_mcd.scss */
+.social-intro {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 74%;
+  left: 0;
+}
+
+/* line 81, ../scss/template/_mcd.scss */
+.title-text {
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 300px;
+  left: 0;
+}
+
+/* line 90, ../scss/template/_mcd.scss */
+#intro, #intro .bg1 {
+  height: 52.875em;
+}
+
+/* line 94, ../scss/template/_mcd.scss */
+#intro p {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  line-height: 1.68571429;
+  padding: 1em;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+}
+
+/* line 103, ../scss/template/_mcd.scss */
+.intro-line {
+  margin: 30px auto 82px;
+}
+
+/* line 107, ../scss/template/_mcd.scss */
+h2 {
+  margin: 90px auto 20px;
+}
+
+/* line 111, ../scss/template/_mcd.scss */
+h2.small {
+  font-size: 35px;
+  margin: 10px auto;
+}
+
+/* line 116, ../scss/template/_mcd.scss */
+#mcd-intro h2 {
+  text-transform: inherit;
+}
+
+/* line 120, ../scss/template/_mcd.scss */
+.license {
+  font-family: helvetica;
+  font-size: 18px;
+  margin: 0;
+  font-weight: 800;
+}
+
+/* line 127, ../scss/template/_mcd.scss */
+.title {
+  padding: 50px 0 0;
+}
+
+/* line 131, ../scss/template/_mcd.scss */
+.title p {
+  font-size: .8rem;
+  line-height: 1.35714286;
+}
+
+/* line 136, ../scss/template/_mcd.scss */
+h1 {
+  font-size: 3.92857143rem;
+  line-height: .43636364;
+}
+
+/** #2 OUR WORK 
+******************************************************************************/
+/* line 143, ../scss/template/_mcd.scss */
+#our-work-mccausland-construction-design {
+  background-color: #F9F9F9;
+}
+
+/* line 147, ../scss/template/_mcd.scss */
+#our-work-mccausland-construction-design h2 {
+  color: #CD5510;
+}
+
+/* line 151, ../scss/template/_mcd.scss */
+.pic {
+  width: 250px;
+  height: 189px;
+}
+
+/** #3 FLEX SLIDER
+******************************************************************************/
+/* line 158, ../scss/template/_mcd.scss */
+.flexslider {
+  border: 6px solid #3d3d3d;
+  height: 440px;
+  /*443px;*/
+}
+
+/** #4 ABOUT
+******************************************************************************/
+/* line 166, ../scss/template/_mcd.scss */
+#about-mccausland-construction-los-angeles-california {
+  background-color: #F9F9F9;
+}
+
+/* line 170, ../scss/template/_mcd.scss */
+#about-mccausland-construction-los-angeles-california h2 {
+  color: #475947;
+}
+
+/** #5 OUR TEAM
+******************************************************************************/
+/* line 176, ../scss/template/_mcd.scss */
+#scott-mccausland h2 {
+  font-size: 28px !important;
+}
+
+/* line 179, ../scss/template/_mcd.scss */
+#our-team-mccausland-construction-design {
+  background-color: #F9F9F9;
+}
+
+/* line 183, ../scss/template/_mcd.scss */
+#our-team-mccausland-construction-design h2 {
+  color: #9A3432;
+}
+
+/* line 187, ../scss/template/_mcd.scss */
+#our-team-mccausland-construction-design p.t-name {
+  color: #3D3D3D;
+}
+
+/* line 191, ../scss/template/_mcd.scss */
+#our-team-mccausland-construction-design p.t-type {
+  color: #594A2D;
+}
+
+/* line 195, ../scss/template/_mcd.scss */
+#our-team-mccausland-construction-design p {
+  color: #3D3D3D;
+}
+
+/* line 199, ../scss/template/_mcd.scss */
+img.scale-with-grid {
+  -moz-box-shadow: 4px 6px 8px -4px #888;
+  -webkit-box-shadow: 4px 6px 8px -4px #888;
+  box-shadow: 4px 6px 8px -4px #888;
+}
+
+/* line 205, ../scss/template/_mcd.scss */
+.sixteen .columns .team {
+  width: 50% !important;
+}
+
+/** SEPARATOR 
+******************************************************************************/
+/* line 211, ../scss/template/_mcd.scss */
+p.separator {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* line 214, ../scss/template/_mcd.scss */
+#separator_1 {
+  background-color: #895d51;
+}
+
+/* line 217, ../scss/template/_mcd.scss */
+#separator_2 {
+  background-color: #ac5738;
+}
+
+/* line 220, ../scss/template/_mcd.scss */
+#separator_3 {
+  background-color: #a89769;
+}
+
+/* line 223, ../scss/template/_mcd.scss */
+#separator_4 {
+  background-color: #e9e0cf;
+}
+
+/** QUOTE SLIDER
+******************************************************************************/
+/* line 229, ../scss/template/_mcd.scss */
+.inspiration {
+  margin: 30px 0 0;
+  text-align: center;
+  display: none;
+}
+
+/* line 234, ../scss/template/_mcd.scss */
+.quote-slider p {
+  font-size: 1.5rem !important;
+  line-height: 2rem;
+}
+
+/** HR
+*****************************************************************************/
+/* line 240, ../scss/template/_mcd.scss */
+.hr-1 {
+  color: #AEAEAE;
+  border-color: #AEAEAE;
+  background-color: #AEAEAE;
+  height: .8px;
+  margin: 0 0 1em;
+}
+
+/** PRO IMAGE OPACITY
+*****************************************************************************/
+/* line 250, ../scss/template/_mcd.scss */
+.proj-img i {
+  height: 97%;
+}
+
+/** CONTACT
+*****************************************************************************/
+/* line 256, ../scss/template/_mcd.scss */
+.contact-logo {
+  margin: 0 0 2em 0;
+}
+
+/* line 259, ../scss/template/_mcd.scss */
+.contact-form textarea {
+  background: url(../images/cont-form-bg.jpg) repeat;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  width: 98%;
+  height: 125px;
+  border: 2px solid #ccc;
+}
+
+/* line 271, ../scss/template/_mcd.scss */
+.contact-form input {
+  background: url(../images/cont-form-bg.jpg) repeat;
+  width: 98%;
+  height: 28px;
+  margin-bottom: 10px;
+  padding-left: 4px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  border: 2px solid #ccc;
+}
+
+/* line 283, ../scss/template/_mcd.scss */
+.contact-form input:focus, .contact-form textarea:focus {
+  color: #000 !important;
+}
+
+/* line 286, ../scss/template/_mcd.scss */
+.wpcf7-form .wpcf7-submit {
+  width: 50% !important;
+}
+
+/* line 289, ../scss/template/_mcd.scss */
+.wpcf7-mail-sent-ok {
+  color: #000;
+}
+
+/* line 292, ../scss/template/_mcd.scss */
+#contact {
+  background-color: #F9F9F9;
+}
+
+/* line 296, ../scss/template/_mcd.scss */
+#contact h2 {
+  color: #434343;
+}
+
+/* line 300, ../scss/template/_mcd.scss */
+#contact a {
+  color: #3D3D3D;
+}
+
+/* line 304, ../scss/template/_mcd.scss */
+.dark-bg p {
+  color: #3D3D3D;
+}
+
+/* line 308, ../scss/template/_mcd.scss */
+.dark-bg h5 {
+  color: #3D3D3D;
+}
+
+/** QUOTE
+****************************************************************************/
+/* line 314, ../scss/template/_mcd.scss */
+.quote {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 1.4em;
+}
+
+/** OUR WORK
+***************************************************************************/
+/* line 323, ../scss/template/_mcd.scss */
+.our-work-margin-between-quoteslider-gallery {
+  margin: 1em 0;
+}
+
+/* line 327, ../scss/template/_mcd.scss */
+.no-display {
+  display: none;
+}
+
+/** CONSTRUCTION & DESIGN
+**************************************************************************/
+/* line 333, ../scss/template/_mcd.scss */
+h3.small {
+  text-align: center;
+}
+
+/* line 337, ../scss/template/_mcd.scss */
+.hero-house-contain {
+  width: 100%;
+  height: 100%;
+  margin-top: 1.618em;
+  margin-bottom: 1.618em;
+  position: relative;
+}
+
+/* line 345, ../scss/template/_mcd.scss */
+.hero-house {
+  margin: 0 auto;
+}
+
+/** SPRITE
+**************************************************************************/
+/* line 351, ../scss/template/_mcd.scss */
+.mcd-logo-sprite-cont {
+  width: 90px;
+  height: 79px;
+  margin: 0 auto;
+  padding: 0 0 2.2em 0;
+}
+
+/* line 357, ../scss/template/_mcd.scss */
+.mcd-logo-sprite {
+  background: url("../../images/mcd-logo-sprite.png") top left no-repeat;
+  width: 90px;
+  height: 79px;
+  background-position: -10px -99px;
+}
+
+/* line 364, ../scss/template/_mcd.scss */
+a:hover .mcd-logo-sprite {
+  width: 90px;
+  height: 79px;
+  background-position: -10px -10px;
+}
+
+/** MEDIA QUERIES
+**************************************************************************/
+@media only screen and (min-width: 1919px) and (max-width: 1920px) {
+  /* line 375, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 75em;
+  }
+
+  /* line 378, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 24.5em;
+  }
+
+  /* line 381, ../scss/template/_mcd.scss */
+  .social-intro {
+    top: 66%;
+  }
+
+  /* line 384, ../scss/template/_mcd.scss */
+  .separator1 .bg {
+    background-attachment: fixed;
+  }
+}
+/*@media only screen and (min-width:1600px) and (max-width:1600px) {
+	#intro, #intro .bg1 {
+		height: 160.000em;
+	}
+	.title img {
+		margin-top: 28.5em;
+	}
+	.social-intro {
+		top: 44%;
+	}
+	.separator1 .bg2 {
+		background: url('../images/bg2-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg3 {
+		background: url('../images/bg3-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg4 {
+		background: url('../images/bg4-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg5 {
+		background: url('../images/bg5-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg {
+		background-attachment: fixed;
+	}
+
+} */
+/*@media only screen and (min-width:1200px) and (max-width:1200px) {
+	#intro, #intro .bg1 {
+		height: 122.875em;
+	}
+	.title img {
+		margin-top: 42.5em;
+	}
+	.social-intro {
+		top: 48%;
+	}
+	.separator1 .bg2 {
+		background: url('../images/bg2-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg3 {
+		background: url('../images/bg3-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg4 {
+		background: url('../images/bg4-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg5 {
+		background: url('../images/bg5-mobile.jpg') no-repeat center;
+	}
+	.separator1 .bg {
+		background-attachment: fixed;
+	}
+}*/
+@media only screen and (min-width: 1025px) {
+  /* line 448, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 15.5em;
+  }
+
+  /* line 452, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 62.000em;
+  }
+
+  /* line 455, ../scss/template/_mcd.scss */
+  .social-intro {
+    top: 74%;
+  }
+
+  /* line 458, ../scss/template/_mcd.scss */
+  .title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 469, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 15.5em;
+  }
+
+  /* line 473, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 62.000em;
+  }
+
+  /* line 476, ../scss/template/_mcd.scss */
+  .social-intro {
+    top: 74%;
+  }
+
+  /* line 479, ../scss/template/_mcd.scss */
+  .title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 768px) {
+  /* line 489, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 64.875em;
+  }
+
+  /* line 492, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 20.5em;
+  }
+
+  /* line 495, ../scss/template/_mcd.scss */
+  .social-intro {
+    top: 61%;
+  }
+
+  /* line 498, ../scss/template/_mcd.scss */
+  #contact {
+    height: 840px;
+  }
+}
+@media only screen and (min-width: 361px) and (max-width: 640px) {
+  /* line 504, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 45.875em;
+  }
+
+  /* line 507, ../scss/template/_mcd.scss */
+  .social-intro {
+    top: 70%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 568px) {
+  /* line 513, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 45.875em;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 360px) {
+  /* line 519, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 40.875em;
+  }
+
+  /* line 522, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 10.5em;
+  }
+}
+@media only screen and (max-width: 736px) {
+  /* line 528, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 40.775em;
+  }
+
+  /* line 531, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 7.8em;
+  }
+
+  /* line 534, ../scss/template/_mcd.scss */
+  .social-intro {
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 667px) {
+  /* line 540, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 38.775em;
+  }
+
+  /* line 543, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 7.8em;
+  }
+
+  /* line 546, ../scss/template/_mcd.scss */
+  .social-intro {
+    margin-top: 2%;
+  }
+}
+@media only screen and (max-width: 568px) {
+  /* line 552, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 35.775em;
+  }
+
+  /* line 555, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 5.8em;
+  }
+
+  /* line 558, ../scss/template/_mcd.scss */
+  .social-intro {
+    margin-top: 9%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  /* line 564, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 34.775em;
+  }
+
+  /* line 567, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 7.8em;
+  }
+
+  /* line 570, ../scss/template/_mcd.scss */
+  .social-intro {
+    margin-top: 9%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  /* line 576, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 35.775em;
+  }
+
+  /* line 579, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 7.8em;
+  }
+
+  /* line 582, ../scss/template/_mcd.scss */
+  .social-intro {
+    margin-top: 9%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  /* line 588, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 31.775em;
+  }
+
+  /* line 591, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 6.5em;
+  }
+
+  /* line 594, ../scss/template/_mcd.scss */
+  .social-intro {
+    margin-top: 9%;
+  }
+}
+@media screen and (min-height: 1382px) {
+  /* line 601, ../scss/template/_mcd.scss */
+  .title img {
+    margin-top: 25.5em;
+  }
+
+  /* line 605, ../scss/template/_mcd.scss */
+  #intro, #intro .bg1 {
+    height: 90.000em;
+  }
+
+  /* line 608, ../scss/template/_mcd.scss */
+  .social-intro {
+    top: 74%;
+  }
+
+  /* line 611, ../scss/template/_mcd.scss */
+  .title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=custom.css.map */
