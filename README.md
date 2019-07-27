@@ -1,9 +1,9 @@
 # MCD
 
-Two themes:Parent and Child
+Two themes: Parent and Child
 
-Parent -> Big-Screen
-Child -> mccausland-big-screen
+Parent: Big-Screen<br>
+Child: mccausland-big-screen
 
 These are WordPress themes. Custom built for mccauslandconstruction.com
 
